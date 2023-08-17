@@ -1,0 +1,6 @@
+{
+	"cmd" : ["timeout 4s python3 $file_base_name.py <inputf.txt>outputf.txt"], 
+	"selector" : "source.python",
+	"shell": true,
+	"working_dir" : "$file_path"
+}
